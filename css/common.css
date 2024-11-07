@@ -12,6 +12,33 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+/* 1 task*/
+
+h2 {
+  font-family: Montserrat;
+  color: #2e2f42;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  width: 107px;
+  height: 32px;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+.item {
+  background-color: #f6f6fe;
+  box-sizing: border-box;
+  padding: 16px;
+  width: 392px;
+  height: 264px;
+  margin-bottom: 24px;
+}
+
 /* 2 task*/
 .gallery {
   display: flex;
@@ -33,4 +60,32 @@ body {
   width: 100%;
   height: auto;
   border-radius: 8px;
+}
+
+/* 3 task*/
+input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 16px;
+  outline: black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+h1 {
+  margin: 0;
+}
+/* 4 task*/
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  background-color: #4e75ff;
+  width: 86px;
+  height: 40px;
+  color: white;
 }
